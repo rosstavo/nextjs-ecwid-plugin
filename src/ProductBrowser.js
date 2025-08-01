@@ -11,6 +11,8 @@ const ProductBrowser = ({
     categoryView = "grid",
     searchView = "list",
 }) => {
+    console.log("ProductBrowser component mounted");
+
     useEffect(() => {
         let ecwidLoaded = false;
 
